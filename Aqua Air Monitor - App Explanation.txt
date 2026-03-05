@@ -1,0 +1,219 @@
+=====================================
+AQUA AIR MONITOR
+Application Overview
+=====================================
+
+
+1. INTRODUCTION
+-------------------------------------
+
+Aqua Air Monitor is a dashboard application designed to monitor
+an Atmospheric Water Generator (AWG) called "Aqua Air".
+
+An Atmospheric Water Generator is a device that collects moisture
+from the air and converts it into clean drinking water. This app
+helps users understand how much water is being produced, how the
+device is performing, and what environmental conditions look like
+at any given time.
+
+The application presents all of this information in a visual,
+easy-to-read format that anyone can understand at a glance.
+
+
+2. PURPOSE OF THE APP
+-------------------------------------
+
+The purpose of Aqua Air Monitor is to bring together all the
+important information about the water generation system into
+one place.
+
+With this app, users can:
+
+  - See how much water has been produced today and over time
+  - Check the current humidity and temperature levels
+  - Monitor the quality of the water being generated
+  - View the status of each device component
+  - Receive alerts when the system needs attention
+  - Get predictions for future water production
+
+Instead of checking multiple sensors or instruments individually,
+this app combines everything into a single, unified dashboard.
+
+
+3. MAIN FEATURES
+-------------------------------------
+
+Water Production Tracking
+  The app displays how much water the system has produced today
+  and the total amount generated over its lifetime. Values are
+  shown with clear numbers and visual indicators.
+
+Humidity and Temperature Monitoring
+  Since water generation depends heavily on air conditions, the
+  app continuously displays the current humidity percentage and
+  temperature. These values update automatically every few seconds.
+
+Water Quality Monitoring
+  The app tracks Total Dissolved Solids (TDS) and pH levels of
+  the generated water. It shows a clear status indicator:
+  Safe, Warning, or Unsafe, so users immediately know whether
+  the water is safe to drink.
+
+Device Status Display
+  Each component of the AWG system is shown with a color-coded
+  status: green for running, yellow for idle, and red for issues.
+  Components include the Fan, Compressor, Condenser, UV Purifier,
+  and Water Tank.
+
+Maintenance Alerts
+  The app provides notifications when maintenance is needed,
+  such as filter replacements, tank drainage, or component
+  overheating. Alerts are categorized by severity so the most
+  urgent issues are highlighted first.
+
+AI Water Prediction
+  Using recent humidity trends and historical data, the app
+  estimates how much water the system is likely to produce
+  tomorrow. This helps users plan and anticipate output.
+
+System Controls
+  The app includes a simulated control panel where users can
+  start or stop the system, adjust the target humidity threshold,
+  and set the cooling level of the condenser.
+
+Environmental Insights
+  The app explains how current weather conditions affect water
+  production. It shows the optimal humidity range and estimates
+  the expected water output based on current conditions.
+
+
+4. DASHBOARD OVERVIEW
+-------------------------------------
+
+The main dashboard is the first screen users see when they open
+the app. It displays the most important information using:
+
+  - Metric Cards: Large, easy-to-read cards showing key numbers
+    like water produced, humidity, temperature, efficiency, and
+    power consumption.
+
+  - Live Monitoring Panel: A section that updates in real time,
+    showing current readings for humidity, temperature, dew point,
+    condenser temperature, airflow speed, and water collection rate.
+
+  - Production Chart: A visual graph showing how much water was
+    produced over the last 24 hours.
+
+  - Prediction Card: A highlighted card showing the estimated
+    water production for tomorrow.
+
+  - Environmental Insights: A summary of current conditions and
+    how they affect water generation.
+
+
+5. PAGES IN THE APP
+-------------------------------------
+
+The application is organized into six main pages:
+
+  Dashboard
+    The home page with an overview of all key metrics, live
+    monitoring data, production charts, and predictions.
+
+  Water Analytics
+    Detailed charts showing water production trends over
+    different time periods: hourly, daily, and monthly.
+    Also includes a graph comparing humidity levels to water
+    output to show the relationship between them.
+
+  Device Status
+    Shows the status of each system component (Fan, Compressor,
+    Condenser, UV Purifier, Water Tank). Includes a control
+    panel for system operation and a visual water tank level
+    indicator. Also displays the locations of deployed devices.
+
+  Water Quality
+    Monitors the safety of the generated water using gauges
+    for TDS (Total Dissolved Solids) and pH levels. Shows an
+    overall purity status and a historical chart of readings.
+
+  Maintenance Logs
+    Lists all active system alerts with severity levels.
+    Displays warning banners for critical issues and maintains
+    a log of past maintenance actions with dates and status.
+
+  Settings
+    Allows users to configure their preferences:
+    - Choose between Liters and Gallons
+    - Choose between Celsius and Fahrenheit
+    - Enable or disable notification types
+    - Adjust sensor calibration offsets
+
+
+6. DATA DEMONSTRATION
+-------------------------------------
+
+This version of the Aqua Air Monitor uses simulated data to
+demonstrate how a real monitoring system would work.
+
+The simulated data includes:
+  - Humidity readings (55% to 88%)
+  - Temperature readings (22 to 36 degrees Celsius)
+  - Water production rates
+  - TDS values (45 to 130 ppm)
+  - pH levels (6.7 to 7.6)
+
+All values update automatically every 5 seconds to create a
+realistic experience of watching a live monitoring system.
+
+In a real deployment, this data would come from physical sensors
+connected to the AWG device through a microcontroller (such as
+an ESP32) communicating via WiFi.
+
+
+7. DESIGN AND INTERFACE
+-------------------------------------
+
+The app uses a clean, modern design with a water-inspired color
+theme. The main colors are deep blue, light aqua, and white,
+creating a professional and calming visual experience.
+
+Key design elements include:
+
+  - Card-based layout for easy scanning of information
+  - Color-coded status indicators (green, yellow, red)
+  - Interactive charts and graphs for data visualization
+  - Semi-circle gauges for water quality readings
+  - Animated water tank level display
+  - Responsive design that works on both desktop and mobile
+
+The interface is designed so that even someone without technical
+knowledge can quickly understand the system's performance.
+
+
+8. CONCLUSION
+-------------------------------------
+
+The Aqua Air Monitor application demonstrates how modern
+technology can be used to monitor and manage atmospheric
+water generation systems effectively.
+
+By presenting complex sensor data in a simple, visual format,
+the app makes it easy for anyone to understand how much water
+is being produced, whether the water is safe, and whether the
+system is running properly.
+
+This prototype shows the potential for real-world deployment
+where such a dashboard would help operators maintain AWG
+systems efficiently, reduce downtime, and ensure consistent
+water quality.
+
+The Aqua Air Monitor represents a practical application of
+IoT (Internet of Things) technology in addressing water
+scarcity through atmospheric water harvesting.
+
+
+=====================================
+Aqua Air Monitor v1.0
+Symposium Edition
+=====================================
